@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "delay": 20000,
+  "watch": ["*.*", "../*"],
+  "ext": "txt, js, ts, xlsx"
+}
