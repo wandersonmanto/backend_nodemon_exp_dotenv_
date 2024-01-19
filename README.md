@@ -11,11 +11,18 @@ As 3 dependencias juntas são a base do aprendizado dos primeiros projetos criad
 
 ##### COMO RODAR O PROJETO
 * __*Instalar todas as dependencias indicadas pelo package.json*__
-**npm install**
+```sh
+npm install
+```
 
 * __*Executar o projeto*__
-**node index.js**
-**npm run dev**
+```sh
+node index.js
+```
+```sh
+npm run dev
+```
+__*Obs. O segundo comando irá utilizar o nodemon para monitorar atualizações no projeto.*__
 
 ### CRIANDO O PROJETO
 **Start o package**:
@@ -40,7 +47,7 @@ npm install dotenv --save
 ```
 Resumo do dotenv: 
 
-> Ele permite gerenciar variáveis de ambiente de forma eficiente em projetos front-end, facilitando a configuração e a > utilização de informações sensíveis, como chaves de API, tokens de autenticação e URLs de serviços externos.
+> Ele permite gerenciar variáveis de ambiente de forma eficiente em projetos front-end, facilitando a configuração e a utilização de informações sensíveis, como chaves de API, tokens de autenticação e URLs de serviços externos.
 
 __*Usage:*__
 Crie um arquivo .env na pasta principal do projeto.
@@ -67,7 +74,7 @@ __*Obs. O npx irá executar o nodemon sem instalar a dependencia no seu projeto.
 Resumo do nodemon:
 
 > O nodemon é um utilitário que monitora as mudanças nos arquivos do seu projeto
-> e reinicia automaticamente o servidor > Node. js quando necessário. 
+> e reinicia automaticamente o servidor Node. js quando necessário. 
 > Assim, você não precisa parar e iniciar o servidor manualmente a cada modificação.
 
 #### Personalize o nodemon para atender as necessidades do seu projeto.
