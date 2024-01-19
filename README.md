@@ -89,6 +89,6 @@ Crie o arquivo nodemon.json na pasta principal do projeto
 ```
 
 Das diversas opções que existem na documentação usei apenas 3 para exemplo.
-delay: em quanto tempo os serviços serão reestabelecidos.
-watch: monitora diretórios da aplicação, muito útil para monitorar diretórios além do diretorio principal.
-ext: Para adicionar extensões extras a serem monitoradas no projeto.
+- delay: em quanto tempo os serviços serão reestabelecidos.
+- watch: monitora diretórios da aplicação, muito útil para monitorar diretórios além do diretorio principal.
+- ext: Para adicionar extensões extras a serem monitoradas no projeto.
